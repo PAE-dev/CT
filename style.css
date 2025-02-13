@@ -1,0 +1,70 @@
+
+.header {
+    background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* Separa el logo y la navbar */
+    align-items: center;    /* Centra verticalmente */
+    padding: 10px 20px;
+
+}
+
+.logo {
+    background-color: blue;
+
+}
+.navbar {
+    background-color: green;
+    display: flex;          /* Hace que los elementos se alineen en fila */
+    gap: 20px;  
+    padding: 10px; 
+}
+
+.main {
+    background-color: blueviolet;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.boxes {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    width: 180vh;
+    gap: 20px;    
+}
+
+.boxes-1 {
+    background-color: black;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+.padrecard {
+    flex-wrap: wrap;
+    display: flex;
+    background-color: orange;
+    gap: 50px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 350px;
+    height: 400px;
+    display: flex;
+}
+
+
+.footer{
+    background-color: yellow;
+    height: 200px;
+}
